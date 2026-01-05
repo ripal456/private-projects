@@ -1,0 +1,106 @@
+ php artisan serve      
+  php artisan migrate  
+  php artisan session:table   
+  curl http://localhost:8000/api/energy-usages
+  php artisan db:seed    
+   php artisan route:list 
+
+   psql -h 127.0.0.1 -U ecotrack_db -d ecotrack_user
+
+   {
+    "email": "admin@example.com",
+    "password": "password123"
+}
+
+[
+  {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "password": "password456",
+    "role": "admin"
+  },
+  {
+    "name": "Michael Johnson",
+    "email": "michael.johnson@example.com",
+    "password": "password789",
+    "role": "user"
+  },
+  {
+    "name": "Emily Brown",
+    "email": "emily.brown@example.com",
+    "password": "password101",
+    "role": "moderator"
+  },
+  {
+    "name": "David Wilson",
+    "email": "david.wilson@example.com",
+    "password": "password202",
+    "role": "user"
+  },
+  {
+    "name": "Sarah Davis",
+    "email": "sarah.davis@example.com",
+    "password": "password303",
+    "role": "admin"
+  },
+  {
+    "name": "Robert Taylor",
+    "email": "robert.taylor@example.com",
+    "password": "password404",
+    "role": "user"
+  },
+  {
+    "name": "Lisa Anderson",
+    "email": "lisa.anderson@example.com",
+    "password": "password505",
+    "role": "moderator"
+  },
+  {
+    "name": "James Martinez",
+    "email": "james.martinez@example.com",
+    "password": "password606",
+    "role": "user"
+  },
+  {
+    "name": "Patricia Garcia",
+    "email": "patricia.garcia@example.com",
+    "password": "password707",
+    "role": "admin"
+  },
+  {
+    "name": "William Rodriguez",
+    "email": "william.rodriguez@example.com",
+    "password": "password808",
+    "role": "user"
+  },
+  {
+    "name": "Jennifer Lee",
+    "email": "jennifer.lee@example.com",
+    "password": "password909",
+    "role": "moderator"
+  },
+  {
+    "name": "Thomas Clark",
+    "email": "thomas.clark@example.com",
+    "password": "password010",
+    "role": "user"
+  },
+  {
+    "name": "Barbara Lewis",
+    "email": "barbara.lewis@example.com",
+    "password": "password111",
+    "role": "admin"
+  },
+  {
+    "name": "Charles Walker",
+    "email": "charles.walker@example.com",
+    "password": "password212",
+    "role": "user"
+  }
+]
